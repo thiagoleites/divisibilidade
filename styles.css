@@ -34,14 +34,14 @@ button {
 button:hover {
   background-color: rgb(18, 68, 177);
 }
-p, #mensagem {
+p {
   margin-top: 3rem;
   font-size: 1.6rem;
   color: #999;
 }
 span {
-  font-size: 1rem;
-  color: #999;
+  font-size: 1.5rem;
+  color: rgb(244, 61, 61);
 }
 
 @media (max-width: 640px) {
