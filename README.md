@@ -7,3 +7,8 @@
 ## Como executar o script...
   - execute o comando git clone git@github.com:thiagoleites/divisibilidade.git
   - Inicie o arquivo index.html
+  
+  
+## Como ficou?
+
+ - o projeto pode ser testado aqui https://thiagoleites.github.io/divisibilidade/
