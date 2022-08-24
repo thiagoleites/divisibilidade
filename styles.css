@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  line-height: 1.5;
+  font-size: 62.5%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+h1 {
+  font-size: 2.5rem;
+}
+input, button {
+  font-size: 1.2rem;
+  border: 1px solid #ccc;
+  outline: none;
+  padding: 1rem 1.4rem;
+  border-radius: 5px;
+}
+
+button {
+  background-color: rgb(69, 123, 240);
+  color: #fff;
+  cursor: pointer;
+}
+button:hover {
+  background-color: rgb(18, 68, 177);
+}
+p, #mensagem {
+  margin-top: 3rem;
+  font-size: 1.6rem;
+  color: #999;
+}
+span {
+  font-size: 1rem;
+  color: #999;
+}
+
+@media (max-width: 640px) {
+  h1 {
+    font-size: 1.4rem;
+  }
+}
